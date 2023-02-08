@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    />
+    <script
+      src="https://kit.fontawesome.com/004119c32d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Événement</title>
+  </head>
+  <body>
+    <!--Start: header -->
+    <header>
+      <nav class="navbar navbar-light navbar-expand-lg bg-dark fixed-top">
+        <a class="navbar-brand" id="text" href="#">
+          <img
+            src="images/usaaSPORT.jpeg"
+            alt="Logo de l'association"
+            class="navbar-logo"
+          />
+          USAA
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvasLg"
+          aria-controls="navbarOffcanvasLg"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="navbarOffcanvasLg"
+          aria-labelledby="navbarOffcanvasLgLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">USAA</h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Événements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--/.Navbar-->
+ <!--Start:Newsletter-->
+    <section class="newsletter">
+      <div class="row d-flex justify-content-center align-items-center rows" id="newsletter1">
+        <div class="col-md-6">
+          <div class="card-newsletter">
+            <h5 class="text-black text-uppercase" id="title-newsletter">
+              S'inscrire a la newsletter
+            </h5>
+            <div class="text-center">
+              <img src="images/newsletter.png" width="200" />
+              <span class="d-block mt-3">
+                Soyez les premier à être informés des prochains événements</span
+              >
+
+              <div class="mx-5">
+                <div class="input-group mb-3 mt-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter email"
+                    aria-label="Recipient's username"
+                    aria-describedby="button-addon2"
+                  />
+                  <button
+                    class="btn btn-success border-rad"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End:Newsletter-->
+
+    <!--Start:card-->
+    <section class="cards">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4" id="card-block">
+            <div class="card">
+              <img
+                src="images/sortie longue(9).jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sortie longue</h5>
+                <p class="card-text">
+                  <small class="date-text">
+                    <i
+                      class="fa-solid fa-calendar-days"
+                      aria-hidden="true"
+                      ::before
+                    ></i>
+                    15/01/2023
+                  </small>
+                  <small class="date-text">
+                    <i class="fa-light fa-location-dot"></i>
+                    Aigrefeuille<br />
+                  </small>
+                  Nous vous proposons une sortie longue dimanche 15 Janvier au
+                  départ du club à 09h30.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4" id="card-block">
+            <div class="card">
+              <img
+                src="images/10-KMS-2023_Affiche(1).jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Les 10 kms</h5>
+                <p class="card-text">
+                  <small class="date-text">
+                    <i
+                      class="fa-solid fa-calendar-days"
+                      aria-hidden="true"
+                      ::before
+                    ></i>
+                    26/02/2023
+                  </small>
+                  <small class="date-text">
+                    <i class="fa-light fa-location-dot"></i>
+                    Aigrefeuille<br />
+                  </small>
+                  Nous aurons besoin de bénévoles le samedi et le dimanche
+                  matin, ainsi que des meneurs d'allure.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4" id="card-block">
+            <div class="card">
+              <img
+                src="images/Semi-marathon.jpeg"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Semi-Marathon</h5>
+                <p class="card-text">
+                  <small class="date-text">
+                    <i
+                      class="fa-solid fa-calendar-days"
+                      aria-hidden="true"
+                      ::before
+                    ></i>
+                    19/03/2023
+                  </small>
+                  <small class="date-text">
+                    <i class="fa-thin fa-location-dot"></i>
+                    La Rochelle<br />
+                  </small>
+                  42 ème Semi-marathon de La Rochelle. Epreuve
+                  qualificative pour les Championnats de France.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End:card-->
+
+   
+    <!--Start:Section Contact-->
+    <section class="contact" style="flex-box">
+      <div class="contact-dialog mb-4">
+        <div class="contact-content">
+          <div class="contact-header">
+            <h2 class="h1-responsive font-weight-bold my-4" id="contact">Contactez-nous</h2>
+            <p class="w-responsive mx-auto mb-5 text-light">
+              N'hésitez pas à nous contacter directement!
+            </p>
+          </div>
+          <div class="row" id="form">
+            <div class="col-md-9 mb-md-0 mb-5">
+              <form
+                id="contact-form"
+                name="contact-form"
+                action="mail"
+                method="POST"
+              >
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <label for="name" class="text-light">Nom</label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <label for="email" class="text-light">Votre email</label>
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <label for="message text-md-left" class="text-light"
+                      >Votre message</label
+                    >
+                    <textarea
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows="2"
+                      class="form-control md-textarea"
+                    ></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary"><a class="btn1" href="event.html">Envoyer</a></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End:contact-->
+
+    <!--Start:footer-->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-3 font-weight-bold">
+              Association Sportive
+            </h5>
+            <p>
+              <a href="index.html5" class="list-nav text-white"> Acueil</a>
+            </p>
+            <p>
+              <a href="event.html" class="list-nav text-white">
+                Événements</a
+              >
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Maps</h5>
+            <iframe
+              class="maps"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11062.814846209478!2d-0.9374578!3d46.1168106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf5ecf41597fa4da6!2sUnion%20Sportive%20Aigrefeuille%20Athletisme!5e0!3m2!1sfr!2sfr!4v1673199509445!5m2!1sfr!2sfr"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+            <p>
+              <i class="fas fa-home mr-3"></i>8 Rue des Écoles,<br />
+              17290 Ardillières
+            </p>
+            <p><i class="fas fa-envelope mr-3"></i>usaa@usaa.org</p>
+            <p>
+              <i class="fas fa-phone mr-3"></i>
+              07-16-16-11-16
+            </p>
+          </div>
+          <hr class="mb-4" />
+          <div class="row align-items-center">
+            <div class="col-md-7 col-lg-8">
+              <p>copyright &copy;2023: Tous droits réservés</p>
+            </div>
+            <div class="col-md5 col-lg-4">
+              <div class="text-center text-md-right">
+                <ul class="list list-inline">
+                  <li class="list-inline-item">
+                    <a
+                      href="https://www.aigrefeuilleathletisme.fr/"
+                      target="_blank"
+                      class="btn-foating btn-sm text-white"
+                    >
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      href="https://www.google.com/"
+                      target="_blank"
+                      class="btn-foating btn-sm text-white"
+                    >
+                      <i class="fa-brands fa-google"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End:footer-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

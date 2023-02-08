@@ -1,0 +1,305 @@
+/*Général*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:ital,wght@0,200;0,300;1,300&family=Roboto:wght@100&display=swap");
+
+/*.navbar{
+    border:1px solid red;
+}*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background: rgb(36, 36, 36);
+  min-width: 100%;
+}
+
+header {
+  width: 60px;
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0;
+}
+
+/*Navbar*/
+.navbar {
+  padding: 5px 20px;
+  visibility: visible;
+  box-shadow: -13px 9px 12px -9px rgba(56, 156, 49, 1);
+}
+
+.navbar-logo {
+  height: 65px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 4px;
+  padding: 3px;
+  background: #185c13;
+}
+
+/*navbar*/
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+
+}
+
+#text {
+  color: white;
+}
+
+#text:hover {
+  cursor: pointer;
+  color: #389c31;
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(234, 231, 231);
+  margin-left: 5%;
+}
+
+.navbar-light .navbar-toggler {
+  color: green;
+  background: white;
+  margin-right: 5%;
+}
+
+.offcanvas-title {
+  color: white;
+}
+
+.offcanvas.show {
+  background: rgb(39, 38, 38);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: bold;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.navbar-nav li {
+
+  font-weight: bold;
+  padding: 3px;
+  margin: 12px;
+  font-size: 15px;
+  margin-right: 5px;
+
+}
+
+.navbar-nav li {
+  transition: 0.5s;
+}
+
+.navbar-nav li:hover {
+  background: #389c31;
+  border-radius: 8%;
+}
+
+/* humburger menu*/
+.offcanvas-header {
+ 
+  color: #353535;
+}
+
+.offcanvas {
+  background: rgb(36, 36, 36);
+  height: 50%;
+
+}
+
+.offcanvas-title {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .offcanvas {
+    display: flex;
+  }
+}
+
+/*Navbar*/
+.navbar-toggler {
+  border: 1px;
+}
+
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  margin-top: 3px;
+  display: block;
+  border-radius: 5px;
+  transition: all 0.7s;
+}
+
+.navbar-light .navbar-toggler {
+  background: #389c31;
+  border-color: #185c13;
+}
+
+.navbar-icon {
+
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+
+/*  Carousel */
+#carouselExampleCaptions {
+  width: 80%;
+  margin: auto;
+  z-index: -1;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: clamp(1.2rem, 5vw, 2rem);
+}
+
+.last-title {
+  font-size: clamp(1.2rem, 5vw, 2rem);
+}
+
+/* Section main */
+
+.title-1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  color: white;
+}
+
+
+h2,
+h3 {
+  color: white;
+  font-size: 1.3rem;
+}
+.title-2 {
+ 
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.title3{
+  
+  margin-left: 8px;
+}
+hr {
+  background-color: #185c13;
+  border: 0;
+  height: 1.5px;
+  margin: 1rem 0;
+  opacity: 0.4;
+}
+
+.paragraph {
+  padding: 0;
+  color: white;
+}
+
+.paragraph p {
+  margin: 3px;
+  text-align: justify;
+  font-size: 20px;
+  padding: 1rem;
+}
+
+
+.paragraph-intro {
+
+  color: white;
+  font-size: 20px;
+  margin: 0 ;
+  padding: 1rem;
+  text-align: justify;
+}
+
+
+/* Footer*/
+
+.list-nav {
+  text-decoration: none;
+}
+
+h5 {
+  color: #389c31;
+  font-weight: bold;
+}
+
+i {
+  padding: 5px;
+  margin: 5px;
+
+}
+
+/*Contact*/
+.contact {
+
+  display: flex;
+  justify-content: center;
+  width: auto;
+  background: #185c13;
+  max-width: 100%;
+}
+h2 {
+ 
+  text-align: center;
+}
+.text-light {
+  text-align: center;
+}
+#form{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.btn{
+  display: block;
+  margin: auto;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  background-color:rgb(29, 51, 196);
+  height: 40px;
+  width: 100px;
+  border: none;
+  
+}
+.btn1{
+  text-decoration: none;
+  color: white;
+}
